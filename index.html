@@ -9,16 +9,21 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <h1 class="text-center mt-5">freeCodeCamp Survey Form</h1>
-      <p class="text-center fst-italic" style="font-size: 20px">
+    <div class="container-fluid" style="overflow-y: scroll">
+      <h1 class="text-center mt-5 text-white">freeCodeCamp Survey Form</h1>
+      <p class="text-center fst-italic text-white" style="font-size: 20px">
         Thank you for taking the time to help us improve the platform
       </p>
-      <div class="row d-flex justify-content-center">
-        <div class="col-7">
+      <div class="row d-flex justify-content-center flex-nowrap">
+        <div
+          class="col-7 py-5 px-5 flex-nowrap"
+          style="background-color: rgba(27, 27, 50, 0.8)"
+        >
           <form action="">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <label for="exampleInputEmail1" class="form-label text-white"
+                >Name</label
+              >
               <input
                 type="email"
                 class="form-control"
@@ -29,7 +34,9 @@
             </div>
 
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <label for="exampleInputEmail1" class="form-label text-white"
+                >Email</label
+              >
               <input
                 type="email"
                 class="form-control"
@@ -40,7 +47,7 @@
             </div>
             <!-- age -->
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
+              <label for="exampleInputEmail1" class="form-label text-white"
                 >Age(optional)
               </label>
               <input
@@ -53,7 +60,7 @@
             </div>
             <!-- select section -->
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
+              <label for="exampleInputEmail1" class="form-label text-white"
                 >Which option best describes your current role?</label
               >
               <select class="form-select" aria-label="Default select example">
@@ -66,7 +73,9 @@
               </select>
             </div>
             <!-- radio buttons -->
-            <p class="mt-4">Would you recommend freeCodeCamp to a friend?</p>
+            <p class="mt-4 text-white">
+              Would you recommend freeCodeCamp to a friend?
+            </p>
             <div class="form-check">
               <input
                 class="form-check-input"
@@ -74,7 +83,10 @@
                 name="flexRadioDefault"
                 id="flexRadioDefault1"
               />
-              <label class="form-check-label" for="flexRadioDefault1">
+              <label
+                class="form-check-label text-white"
+                for="flexRadioDefault1"
+              >
                 Definitely
               </label>
             </div>
@@ -86,7 +98,10 @@
                 name="flexRadioDefault"
                 id="flexRadioDefault1"
               />
-              <label class="form-check-label" for="flexRadioDefault1">
+              <label
+                class="form-check-label text-white"
+                for="flexRadioDefault1"
+              >
                 Maybe
               </label>
             </div>
@@ -98,13 +113,16 @@
                 name="flexRadioDefault"
                 id="flexRadioDefault1"
               />
-              <label class="form-check-label" for="flexRadioDefault1">
+              <label
+                class="form-check-label text-white"
+                for="flexRadioDefault1"
+              >
                 Not sure
               </label>
             </div>
             <!-- second select -->
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
+              <label for="exampleInputEmail1 " class="form-label text-white"
                 >What is your favorite feature of freeCodeCamp?</label
               >
               <select class="form-select" aria-label="Default select example">
@@ -117,7 +135,7 @@
               </select>
             </div>
 
-            <p class="mt-4">
+            <p class="mt-4 text-white">
               What would you like to see improved? (Check all that apply)
             </p>
             <div class="form-check">
@@ -127,7 +145,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Front-end Projects
               </label>
             </div>
@@ -139,7 +157,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Back-end Projects
               </label>
             </div>
@@ -151,7 +169,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Data Visualization
               </label>
             </div>
@@ -163,7 +181,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Challenges
               </label>
             </div>
@@ -175,7 +193,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Open Source Community
               </label>
             </div>
@@ -187,7 +205,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Gitter help rooms
               </label>
             </div>
@@ -199,7 +217,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Videos
               </label>
             </div>
@@ -211,7 +229,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 City Meetups
               </label>
             </div>
@@ -223,7 +241,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Wiki
               </label>
             </div>
@@ -235,7 +253,7 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Forum
               </label>
             </div>
@@ -247,21 +265,31 @@
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label class="form-check-label text-white" for="flexCheckDefault">
                 Additional Courses
               </label>
             </div>
 
-            <p class="mt-4">Any comments or suggestions?</p>
+            <p class="mt-4 text-white">Any comments or suggestions?</p>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-              <textarea placeholder="Enter your comment here..." class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea
+                placeholder="Enter your comment here..."
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
             </div>
 
-          <!-- Sumbit button -->
-          <div class="d-grid gap-2 mb-5">
-            <button class="btn btn-success" type="button">Submit</button>
-          </div>
+            <!-- Sumbit button -->
+            <div class="d-grid gap-2 mb-5 mt-4">
+              <button
+                class="btn py-2"
+                style="background-color: #37af65"
+                type="button"
+              >
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
